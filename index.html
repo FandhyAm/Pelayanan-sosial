@@ -212,7 +212,7 @@
         <div class="row">
           <div class="col-lg-12">
             <div class="form px-3">
-              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <form action="/contact" method="post" role="form" class="php-email-form">
                 <div class="row">
                   <div class="form-group col-lg-6">
                     <label for="name">Nama</label>
@@ -220,8 +220,8 @@
                   </div>
                   <div class="form-group col-lg-6 mt-3 mt-lg-0">
                     <label for="mobile">No Wa</label>
-                    <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Masukan no Wa"
-                      required>
+                    <input type="tel" class="form-control" pattern="^\d{3}-\d{3}-\d{4}$" name="mobile" id="mobile"
+                      placeholder="Masukan no Wa" required>
                   </div>
                 </div>
                 <div class="form-group col-lg-12 mt-3">
@@ -285,11 +285,11 @@
           </div>
 
           <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
+            <h4>Kontak Kami</h4>
             <p>
               Jl.Ir.H.Juanda No.367 Bandung, Jawa Barat, Indonesia. <br>
               <strong>Phone:</strong> +62 821763282<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Email:</strong> info@gmail.com<br>
             </p>
 
             <div class="social-links">
